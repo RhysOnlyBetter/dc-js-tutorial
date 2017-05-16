@@ -28,7 +28,7 @@ print_filter("total_90");
 var total_90_101= totalDim.filter([90,101]);
 print_filter("total_90_101"); 
 
-// Show values devisable by 3.
+// Show values divisible by 3.
 var total_3= totalDim.filter(function(d) { if (d%3===0) {return d;} } );
 print_filter("total_3"); 
 
